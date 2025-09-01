@@ -9,4 +9,12 @@ function calcularMayor(numero1, numero2) {
 
 }
 
-console.log(calcularMayor(0,0))
+function main() {
+    let numero1 = prompt("Ingrese el primer numero")
+    let numero2 = prompt("Ingrese el segundo numero")
+
+    calcularMayor(numero1, numero2)
+
+}
+
+main()
