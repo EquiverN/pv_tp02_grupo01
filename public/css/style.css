@@ -1,0 +1,38 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.seccion-formulario {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243, 239, 233);
+    border: 1px rgb(173, 165, 165) solid;
+    border-radius: 5%;
+    padding: 35px;
+    gap: 5px;
+}
+
+#btn-sumar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#btn-sumar:hover {
+    background-color: #45a049;
+}
